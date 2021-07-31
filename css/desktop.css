@@ -1,6 +1,42 @@
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     width:85%;
+}
+
+header .container, .services-plus .plus, .services .services-container, section.cta {
+    flex-direction: row;
+}
+
+header .tollfree {
+    flex-direction: column;
+}
+
+header .logo-img {
+    margin: 0;    
+    width: 60%;
+}
+
+.services-plus .plus>div {
+    width: 25%;
+}
+
+.services .services-container>div {
+    width: 40%;
+    margin: initial;
+}
+
+.review {
+    width: 50%;
+}
+
+.cta div:first-child {
+    width: 60%;
+    margin: initial;
+}
+
+.cta div.imgcta {
+    width: 35%;
+    margin: initial;
 }
 
 .modal-content {
