@@ -56,6 +56,7 @@ main .titles {
 .best-deal {
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 .best-deal-container {
@@ -64,6 +65,8 @@ main .titles {
 }
 .ribbon {
     padding-left: 21px;
+    position: relative;
+    left: -5px;
 }
 
 .best-deal-container.firstdeal {
