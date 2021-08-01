@@ -272,13 +272,18 @@
         <p>Leave your contact and we'll be in touch as soon as possible to personally clear all your doubts concerns!</p>
 
         <form>
+        <fieldset>
+                <label for="name">Name *:</label>
+                <input type="text" id="name" name="name" minlength="3" maxlength="40" required>
+            </fieldset>
             <fieldset>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email">
+                <label for="email">E-mail *:</label>
+                <input type="email" id="email" name="email" required >
+                <br><span id="emailOK"></span>
             </fieldset>
             <fieldset>
                 <label for="phone">Telephone</label>
-                <input type="text" id="phone" name="phone">
+                <input type="text" id="phone" name="phone" onkeyup="this.value=Numeros(this.value)" maxlength="12" >
             </fieldset>
             <p>Select which one do you preffer for us to contact you:</p>
             <div>

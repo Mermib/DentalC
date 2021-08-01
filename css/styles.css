@@ -415,6 +415,11 @@ footer a {
     color: var(--second-gold);
 }
 
+#emailOK {
+    font-size: 1rem;
+    color: var(--second-gold);
+}
+
 /* Modal */
 .modal {
     display: none; 
