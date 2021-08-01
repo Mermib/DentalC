@@ -62,6 +62,9 @@ main .titles {
     margin: 50px auto!important;
     width: 70%;
 }
+.ribbon {
+    padding-left: 21px;
+}
 
 .best-deal-container.firstdeal {
     margin: -100px auto!important;

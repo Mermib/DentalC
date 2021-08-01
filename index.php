@@ -35,8 +35,10 @@
 
         <section class="best-deal-container firstdeal">
             <div class="best-deal">
-                <div class="promo">
-                    <span>Best deal</span>
+                <div class="promo">                     
+                <div class='ribbon' > 
+                    <div class='theribbon' >Best deal</div> 
+                </div> 
                     <h4>All Smile Travel package</h4>
                     <div class="price">$14,999 USD</div>
                     <h4>All on 4 or 6</h4>
