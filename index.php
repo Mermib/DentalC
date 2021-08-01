@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="container">            
-            <div class="sides tollfree"> 
+            <div class="sides tollfree desktop"> 
                 <span>Call us</span>
                 <span>Toll free</span>
                 <span>-1 (866) 953 0710</span>
@@ -20,21 +20,65 @@
             <div class="logo-img">
                 <img src="img/Logo_dental_Clinic.png" alt="" width="100%" />
             </div>
-            <div class="sides hours-service">
+            <div class="sides hours-service desktop">
                 <span>Hours of service</span>
                 <span><strong>Monday to Friday 9:00am - 7:00pm</span>
                 <span>Saturday: 9:00am - 1:30pm</strong></span>
             </div>
         </div>
     </header>
-    <main class="">
+    <main>
         <section class="titles">
             <h1>Best All On 4 Dental Implants In Mexico</h1>
-            <p>Experience, expertise and innovation (more than 10,000 treatments).</p>
+            <p class="desktop">Experience, expertise and innovation (more than 10,000 treatments).</p>
         </section>
 
-        <section class="best-deal-container">
-            <div class="best-deal"></div>
+        <section class="best-deal-container firstdeal">
+            <div class="best-deal">
+                <div class="promo">
+                    <span>Best deal</span>
+                    <h4>All Smile Travel package</h4>
+                    <div class="price">$14,999 USD</div>
+                    <h4>All on 4 or 6</h4>
+                    <div class="img_deal"><img src="img/Image_1.jpg" alt=""></div>
+                    <div class="terms_deal">* See conditions.</div>
+                </div>
+                <div class="phase">
+                    <div class="tab">
+                        <button class="tablinks active" onclick="openTab(event, 'Phase1')">Phase 1</button>
+                        <button class="tablinks" onclick="openTab(event, 'Phase2')">Phase 2</button>
+                    </div>
+
+                    <div id="Phase1" class="tabcontent">
+                        <h3>Pricing includes:</h3>
+                        <ul>
+                            <li>Pick up / drop off airport</li>
+                            <li>Save up to 40% and enjoy the vacations of your life</li>
+                            <li>Accommodations for 3 nights at a 5-minutes walk hotel from the clinic</li>
+                            <li> Transportation, Clinic – Hotel as need it.</li>
+                            <li>Initial Consultation</li>
+                            <li>CBCT Scan (Tomography)</li>
+                            <li>4 or 6 Implants as need it by the patient (upper and lower) Neodent by Straumann</li>
+                            <li>Extractions needed (Upper and Lower)</li>
+                            <li>Multi-Unit Abutment</li>
+                            <li>Temporary Denture PMMA (Acrylic Miling) (upper and lower)</li>
+                            <li>Dissolvable Stiches</li>
+                        </ul>
+                    </div>
+
+                    <div id="Phase2" class="tabcontent">
+                    <h3>Pricing includes:</h3>
+                    <ul>
+                        <li>CBCT Scan (Tomography)</li>
+                        <li>4 or 6 Implants as need it by the patient (upper and lower) Neodent by Straumann</li>
+                        <li>Extractions needed (Upper and Lower)</li>
+                        <li>Multi-Unit Abutment</li>
+                        <li>Temporary Denture PMMA (Acrylic Miling) (upper and lower)</li>
+                        <li>Dissolvable Stiches<l/i>
+                    </ul>
+                    </div>
+                </div>
+            </div>
             <div class="info-here"> 
                 <span>Request more information for FREE</span>
                 <button id="myBtn" class="openModal">Contact Us!</button>
@@ -42,7 +86,7 @@
         </section>
 
         <section class="services-plus container">
-            <h2>What make us different?</h2>
+            <h2 class="services-title">What make us different?</h2>
             <div class="plus">
                 <div class="">
                     <span><object type="image/svg+xml" data="img/shield.svg" class="shield">  </object></span>
@@ -63,15 +107,59 @@
         </section>
 
         <section class="best-deal-container">
-            <div class="best-deal"></div>
+            <div class="best-deal">
+                <div class="promo">
+                    <h4>Dental Treatment Package</h4>
+                    <div class="price">$7,799 USD</div>
+                    <h4>All on 4 or 6</h4>
+                    <div class="img_deal"><img src="img/Image_2.jpg" alt=""></div>
+                    <div class="terms_deal">* See conditions.</div>
+                </div>
+                <div class="phase">
+                    <div class="tab">
+                        <button class="tablinks active" onclick="openTab(event, 'Phase3')">Phase 1</button>
+                        <button class="tablinks" onclick="openTab(event, 'Phase4')">Phase 2</button>
+                    </div>
+
+                    <div id="Phase3" class="tabcontent">
+                        <h3>Pricing includes:</h3>
+                        <ul>
+                            <li>Tax</li>
+                            <li>Extractions</li>
+                            <li>4 or 6 Straumman/Noedent dental implants </li>
+                            <li>Bone regularization </li>
+                            <li>All ground transportation </li>
+                            <li>Final restoration FIX Hybrid Denture- </li>
+                            <li>1 Temporary conventional denture </li>
+                            <li>Tomography and complementary studies</li>
+                            <li>All consultations with specialists included </li>
+                            <li>Bone graft, collagen membranes and PRF/PRP </li>
+                            <li>Sinus Lift-Implantologist or Oral Surgeon fees included </li>
+                            <li>Sedation </li>
+                            <li>3 days hotel (at the beach) </li>
+                        </ul>
+                    </div>
+
+                    <div id="Phase4" class="tabcontent">
+                        <h3>Pricing includes:</h3>
+                        <ul>
+                            <li>All consultations with specialists included </li>
+                            <li>Bone graft, collagen membranes and PRF/PRP </li>
+                            <li>Sinus Lift-Implantologist or Oral Surgeon fees included </li>
+                            <li>Sedation </li>
+                            <li>3 days hotel (at the beach) </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="info-here"> 
                 <span>Request more information for FREE</span>
-                <button id="myBtn"  class="openModal">Contact Us!</button>
+                <button id="myBtn" class="openModal">Contact Us!</button>
             </div>
         </section>
 
 
-        <h2 class="textcenter">We have the best services</h2>
+        <h2 class="textcenter services-title">We have the best services</h2>
         <section class="services">            
             <div class="services-container container">
                 <div class="service">
@@ -92,25 +180,25 @@
         </section>
 
         <section class="reviews container">
-            <h2 class="textcenter">What people have to say about us.</div>
+            <h2>What people have to say about us.</div>
             <div class="review">
                 <div><img src="img/Avatar_1.jpg" alt=""></div>
                 <div>
-                    <p><strong>Jane Cooper.</strong> Ranchview, California</p>
+                    <p class="name-review"><strong>Jane Cooper.</strong> <span>Ranchview, California</span></p>
                     <p>"My neighbor Georgie has one of these. She works as a busboy and she says it loos brown. It only works when I'm Norway"</p>
                 </div>
             </div>
             <div class="review floatright">
                 <div><img src="img/Avatar_2.jpg" alt=""></div>
                 <div>
-                    <p><strong>Jenny Wilson.</strong> New York, New York</p>
+                    <p class="name-review"><strong>Jenny Wilson.</strong> <span>New York, New York</span></p>
                     <p>"My neighbor Georgie has one of these. She works as a busboy and she says it loos brown. It only works when I'm Norway"</p>
                 </div>
             </div>
             <div class="review clear">
                 <div><img src="img/Avatar_3.jpg" alt=""></div>
                 <div>
-                    <p><strong>Guy Hawkings.</strong> Austin, Texas</p>
+                    <p class="name-review"><strong>Guy Hawkings.</strong> <span>Austin, Texas</span></p>
                     <p>"My neighbor Georgie has one of these. She works as a busboy and she says it loos brown. It only works when I'm Norway"</p>
                 </div>
             </div>
@@ -132,32 +220,32 @@
                 <h2>Frecuently Asked Questions</h2>
                 <div class="faqs-container">
                     <div class="question">
-                        <a href="#">What are All-on-4 dental implants?</a>
-                        <div>All-on-Four treatment involves essentially the replacement of all missing teeth in one set of teeth by using only 4
+                        <button class="accordion">What are All-on-4 dental implants?</button>
+                        <div class="panel">All-on-Four treatment involves essentially the replacement of all missing teeth in one set of teeth by using only 4
                             (sometimes 6 or 8) implants.</div>
                     </div>   
                     <div class="question">
-                        <a href="#">Who is candidate for All-on-4 dental implants?</a>
-                        <div>Almost anyone who is missing multiple teeth, or all teeth are candidates for All-on-4 dental implants.
+                        <button class="accordion">Who is candidate for All-on-4 dental implants?</button>
+                        <div class="panel">Almost anyone who is missing multiple teeth, or all teeth are candidates for All-on-4 dental implants.
                         What are the advantages of All-on-4 procedure?</div>
                     </div>  
                     <div class="question">
-                        <a href="#">You can have a total dental restoration with only 4 implants, so the procedure is not as invasive as others.</a>
-                        <div>A.- Often, bone grafting is not necessary.</div>
+                        <button class="accordion">You can have a total dental restoration with only 4 implants, so the procedure is not as invasive as others.</button>
+                        <div class="panel">A.- Often, bone grafting is not necessary.</div>
                     </div>  
                     <div class="question">
-                        <a href="#">How much do All-on 4 dental implants cost?</a>
-                        <div>The approximate cost per arch is about 12,000 usd in the USA. However, you can go to highly qualified clinics in Cancun Mexico, 
+                        <button class="accordion">How much do All-on 4 dental implants cost?</button>
+                        <div class="panel">The approximate cost per arch is about 12,000 usd in the USA. However, you can go to highly qualified clinics in Cancun Mexico, 
                             where the same technology is used, same quality of materials but the cost is considerably lower, almost 40%.</div>
                     </div>  
                     <div class="question">
-                        <a href="#">Do All-on 4 dental implants last?</a>
-                        <div>The approximate cost per arch is about 12,000 usd in the USA. However, you can go to highly qualified clinics in Cancun Mexico,
+                        <button class="accordion">Do All-on 4 dental implants last?</button>
+                        <div class="panel">The approximate cost per arch is about 12,000 usd in the USA. However, you can go to highly qualified clinics in Cancun Mexico,
                         where the same technology is used, same quality of materials but the cost is considerably lower, almost 40%.</div>
                     </div>  
                     <div class="question">
-                        <a href="#">Are All-on 4 dental implants removable?</a>
-                        <div>No.</div>
+                        <button class="accordion">Are All-on 4 dental implants removable?</button>
+                        <div class="panel">No.</div>
                     </div>         
                 </div>
             </div>
@@ -206,6 +294,7 @@
     </div>
 
     <script type="text/javascript" src="js/modal.js" async></script>
+    <script type="text/javascript" src="js/scripts.js" async></script>
 
 </div>
 </body>

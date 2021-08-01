@@ -1,3 +1,19 @@
+.floatright {
+    float: right;
+}
+
+.desktop {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+.textcenter {
+    text-align: center;
+}
+
 .container {
     max-width: 1000px;
     width:85%;
@@ -12,8 +28,71 @@ header .tollfree {
 }
 
 header .logo-img {
-    margin: 0;    
-    width: 60%;
+    margin: 0 20px;
+    width: 50%;
+    text-align: center;
+}
+
+header .sides {
+    display: flex!important;
+    flex-direction: column;
+    line-height: 2.5rem;
+}
+
+header .tollfree {
+    font-family: 'montserratbold';
+    text-align: right;
+}
+
+main .titles p {
+    font-size: 1.8rem;
+    display: block!important;
+}
+
+main .titles {
+    text-align: center;
+}
+
+.best-deal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.best-deal-container {
+    margin: 50px auto!important;
+    width: 70%;
+}
+
+.best-deal-container.firstdeal {
+    margin: -100px auto!important;
+}
+
+.phase {
+    width: 63%;
+}
+
+.promo {
+    width: 30%;
+}
+
+.best-deal-container .tab button, .best-deal-container .tab button.active {
+    padding: 10px 35px;
+}
+
+.best-deal-container .info-here button {
+    margin: 0 15px!important;
+    width: initial;
+}
+
+.best-deal-container .info-here {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.services-title {
+    text-align: center;
 }
 
 .services-plus .plus>div {
@@ -26,7 +105,13 @@ header .logo-img {
 }
 
 .review {
-    width: 50%;
+    width: 60%;
+    flex-direction: row;
+}
+
+.cta button {
+    width: 220px;
+    margin: 0;
 }
 
 .cta div:first-child {
@@ -37,6 +122,17 @@ header .logo-img {
 .cta div.imgcta {
     width: 35%;
     margin: initial;
+}
+
+
+footer {
+    flex-direction: row;
+    padding: 60px 30px;
+}
+
+footer .logo-footer {
+    margin-bottom: 0;
+    width: 25%;   
 }
 
 .modal-content {

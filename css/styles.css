@@ -39,20 +39,13 @@ h1, h2 {
     margin: 0 auto;
 }
 
-.textcenter {
-    text-align: center;
-}
 
 .textright {
     text-align: right;
 }
 
-.floatright {
-    float: right;
-}
-
-.clear {
-    clear: both;
+.desktop {
+    display: none!important;
 }
 
 header {
@@ -69,43 +62,101 @@ header .container {
     align-items: center;
 }
 
-header .sides {
-    display: flex;
-    flex-direction: column;
-    line-height: 2.5rem;
-}
-
-header .tollfree {
-    font-family: 'montserratbold';
-    text-align: right;
-    flex-direction: row;
-}
-
 header .logo-img {
-    margin: 20px 0;    
+    margin: 10px 0;    
     text-align: center;
-    width: 90%;
+    width: 80%;
 }
 
 main .titles {
-    text-align: center;
-    padding: 50px 15px;
+    text-align: left;
+    padding: 50px 25px 150px;
     line-height: 5rem;
     background-color: #F1F1F1;
 }
 
-main .titles p {
-    font-size: 1.8rem;
-}
-
 .best-deal-container {
     background-color: #FFFBF4;
-    border: 1px solid;
-    border-radius: 8px;
+    border: 0;
+    border-radius: 20px;
     box-shadow: 1px 4px 2px 0px #707070;
     padding: 20px;
-    margin: 50px 20px;;
+    margin: 50px 20px;
 }
+
+.best-deal-container.firstdeal {
+    margin: -100px 20px;
+}
+
+/* Style the tab */
+.best-deal-container .tab {
+    overflow: hidden;
+  }
+  
+  .best-deal-container .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    padding: 10px 15px;
+    background-color: var(--grey);
+    border-radius: 6px;
+    font-family: 'montserratbold';
+    font-size: 1.5rem;
+    margin: 15px 15px 20px 0;
+  }
+  
+  .best-deal-container .tabcontent {
+    display: none;
+    font-size: 1.5rem;
+  }
+
+  .best-deal-container .tabcontent h3 {
+      margin-bottom: 20px;
+  }
+
+  .best-deal-container .tabcontent ul {
+  margin: 15px 20px 0;
+  }
+
+  .best-deal-container .tabcontent ul li {
+    margin: 0 0 15px 0;
+    list-style-type: disc;
+   }
+
+  .best-deal-container .tabcontent#Phase1, .best-deal-container .tabcontent#Phase3  {
+      display: block;
+  }
+
+  .best-deal-container .tab button.active    {
+    background-color: var(--gold);
+    color: white;
+    padding: 10px 15px;
+  }
+
+  .best-deal-container h4,.terms_deal  {
+    color:#757575;
+    font-size: 1.8rem;
+    font-family: 'montserratbold';
+    padding: 15px 0;
+    width: 65%;
+  }
+
+  .terms_deal {
+      font-size: 1.5rem;
+  }
+
+  .best-deal-container .price  {
+    color:var(--black);
+    font-size: 1.8rem;
+    font-family: 'montserratbold';
+    border-top:2px solid #757575;
+    padding: 15px 0 0 0;
+    width: 65%;
+  }
 
 .best-deal-container .info-here, .modal-content button, .modal-content input[type="submit"] {
     border-top: 1px solid #707070;
@@ -115,6 +166,17 @@ main .titles p {
     font-size: 1.8rem;
     font-family: 'montserratbold';
 }
+
+.best-deal-container .info-here {
+    display: flex;
+    flex-direction: column;
+}
+
+.best-deal-container .info-here button {
+    margin: 20px auto 0!important;
+    width: 70%;
+}
+
 
 .best-deal-container .info-here  button,  .cta button {
     border: 0;
@@ -130,6 +192,7 @@ main .titles p {
 
 .services-plus {
     text-align: center;
+    margin-top: 160px;
 }
 
 .services-plus .plus {
@@ -140,19 +203,26 @@ main .titles p {
     margin: 50px 0;
 }
 
+
 .services-plus .plus>div {
-    width: 85%;
+    width: 70%;
+    line-height: 2rem;
 }
 
 .services-plus .plus > div span {
     background-color: #ededed;
     border-radius: 50%;
     display: grid;
-    width: 165px;
-    height: 165px;
-    margin: 0 auto 25px;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto 25px;
     justify-content: center;
     align-items: center;
+}
+
+.services-plus .plus > div span object {
+    width: 70px;
+    height: 70px;
 }
 
 .services-plus p {
@@ -176,7 +246,7 @@ main .titles p {
     margin: -135px auto 0;
 }
 .services .services-container>div {
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -184,12 +254,18 @@ main .titles p {
     margin: 0 0 20px 0;
 }
 
+h2.services-title {
+    padding: 0 30px;
+    text-align: left;
+}
+
 .services h4 {
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-family: 'montserratbold';
     justify-content: space-evenly;
     text-align: left;
+    line-height: 3rem;
 }
 
 .services p {
@@ -203,18 +279,19 @@ main .titles p {
 
 .reviews {
     margin: 50px auto;
-    padding: 0 15px;
+    padding: 0 30px;
 }
 
 .review {
     background-color: #F5F5F5;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
-    margin: 30px 0;
-    width: 100%;
+    justify-content: center;
+    margin: 30px auto;
+    width: 85%;
     align-items: center;
     padding: 20px;
+    flex-direction: column;
 }
 
 .review>div:first-child {
@@ -225,17 +302,23 @@ main .titles p {
     font-size: 1.5rem;
     padding-bottom: 10px;
     text-align: left;
+    line-height: 2.2rem;
 }
 
+.review p.name-review {
+    display: grid;
+    padding: 15px 0;
+}
 
 
 section.cta {
     border-top: 2px solid #f5f5f5;
     margin: 50px auto;
-    padding: 50px 0;
+    padding: 50px 10px 0;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    width: 90%;
 }
 
 .cta div:first-child, .cta div.imgcta {
@@ -250,31 +333,44 @@ section.cta {
 }
 
 .cta button {
-    margin: 0 ;
+    width: 90%;
 }
 
 
 .faqs {
     background-color: #2E2E2E;
-    padding: 50px;
+    padding: 50px 30px;
 }
 
 .faqs h2 {
     color:#F6F6F6;
+    line-height: 4rem;
 }
 
-.faqs a {
-    text-decoration: none;
-    color:#F6F6F6;
+.faqs .question {
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.faqs button {
+    text-align: left;
+    color: #F6F6F6;
     font-size: 1.8rem;
     font-family: 'montserratbold';
     padding: 20px 0;
     display: block;
+    background: none;
+    border: none;    
+    cursor: pointer;
 }
 
-.faqs a::before {
+.faqs button::before {
     content: '•';
     margin: 0 10px 0 0;
+}
+
+.faqs .accordion {
+    transition: 0.4s;
+    width: 100%;
 }
 
 .faqs div {
@@ -284,19 +380,29 @@ section.cta {
     line-height: 2.5rem;
 }
 
+.faqs .panel {
+    padding: 0 0 15px;
+    display: none;
+    overflow: hidden;
+  }
+
 
 footer {
     background-color: var(--black);
-    padding: 100px 50px;
+    padding: 80px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
+footer .logo-footer {
+    margin-bottom: 20px;
+}
+
 footer a {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'montserratbold';
     color: var(--second-gold);
 }
