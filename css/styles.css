@@ -117,25 +117,25 @@ main .titles {
     margin: 15px 15px 20px 0;
   }
   
-  .best-deal-container .tabcontent {
+  .best-deal-container .tabcontent-wrapper {
     display: none;
     font-size: 1.5rem;
   }
 
-  .best-deal-container .tabcontent h3 {
+  .best-deal-container .tabcontent-wrapper h3 {
       margin-bottom: 20px;
   }
 
-  .best-deal-container .tabcontent ul {
+  .best-deal-container .tabcontent-wrapper ul {
   margin: 15px 20px 0;
   }
 
-  .best-deal-container .tabcontent ul li {
+  .best-deal-container .tabcontent-wrapper ul li {
     margin: 0 0 15px 0;
     list-style-type: disc;
    }
 
-  .best-deal-container .tabcontent#Phase1, .best-deal-container .tabcontent#Phase3  {
+  .best-deal-container .tabcontent-wrapper#Phase1, .best-deal-container .tabcontent-wrapper#Phase3  {
       display: block;
   }
 

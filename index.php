@@ -51,7 +51,7 @@
                         <button class="tablinks" onclick="openTab(event, 'Phase2')">Phase 2</button>
                     </div>
 
-                    <div id="Phase1" class="tabcontent">
+                    <div id="Phase1" class="tabcontent tabcontent-wrapper">
                         <h3>Pricing includes:</h3>
                         <ul>
                             <li>Pick up / drop off airport</li>
@@ -68,7 +68,7 @@
                         </ul>
                     </div>
 
-                    <div id="Phase2" class="tabcontent">
+                    <div id="Phase2" class="tabcontent tabcontent-wrapper">
                     <h3>Pricing includes:</h3>
                     <ul>
                         <li>CBCT Scan (Tomography)</li>
@@ -119,11 +119,11 @@
                 </div>
                 <div class="phase">
                     <div class="tab">
-                        <button class="tablinks active" onclick="openTab(event, 'Phase3')">Phase 1</button>
-                        <button class="tablinks" onclick="openTab(event, 'Phase4')">Phase 2</button>
+                        <button class="tablinks2 active" onclick="openTab2(event, 'Phase3')">Phase 1</button>
+                        <button class="tablinks2" onclick="openTab2(event, 'Phase4')">Phase 2</button>
                     </div>
 
-                    <div id="Phase3" class="tabcontent">
+                    <div id="Phase3" class="tabcontent-two tabcontent-wrapper">
                         <h3>Pricing includes:</h3>
                         <ul>
                             <li>Tax</li>
@@ -142,7 +142,7 @@
                         </ul>
                     </div>
 
-                    <div id="Phase4" class="tabcontent">
+                    <div id="Phase4" class="tabcontent-two tabcontent-wrapper">
                         <h3>Pricing includes:</h3>
                         <ul>
                             <li>All consultations with specialists included </li>
@@ -184,21 +184,21 @@
         <section class="reviews container">
             <h2>What people have to say about us.</div>
             <div class="review">
-                <div><img src="img/Avatar_1.jpg" alt=""></div>
+                <div><img src="img/Avatar_1.png" alt=""></div>
                 <div>
                     <p class="name-review"><strong>Jane Cooper.</strong> <span>Ranchview, California</span></p>
                     <p>"My neighbor Georgie has one of these. She works as a busboy and she says it loos brown. It only works when I'm Norway"</p>
                 </div>
             </div>
             <div class="review floatright">
-                <div><img src="img/Avatar_2.jpg" alt=""></div>
+                <div><img src="img/Avatar_2.png" alt=""></div>
                 <div>
                     <p class="name-review"><strong>Jenny Wilson.</strong> <span>New York, New York</span></p>
                     <p>"My neighbor Georgie has one of these. She works as a busboy and she says it loos brown. It only works when I'm Norway"</p>
                 </div>
             </div>
             <div class="review clear">
-                <div><img src="img/Avatar_3.jpg" alt=""></div>
+                <div><img src="img/Avatar_3.png" alt=""></div>
                 <div>
                     <p class="name-review"><strong>Guy Hawkings.</strong> <span>Austin, Texas</span></p>
                     <p>"My neighbor Georgie has one of these. She works as a busboy and she says it loos brown. It only works when I'm Norway"</p>
